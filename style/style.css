@@ -22,6 +22,7 @@
     align-items: center;
     background: rgba(0, 0, 0, 0.5);
     overflow: hidden;
+    border-radius: 20px;
 }
 
 
@@ -32,6 +33,14 @@
     height: 140%;
     background: linear-gradient(#00ccff, #d400d4);
     animation: animate 4s linear infinite;
+}
+
+.conteiner .box::after {
+    content: '';
+    position: absolute;
+    background: #0e1538;
+    inset: 4px;
+    border-radius: 16px;
 }
 
 .conteiner .box h2 {
